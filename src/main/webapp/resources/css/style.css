@@ -1,0 +1,267 @@
+nav
+{
+    margin: auto;
+    padding: 10px;
+}
+nav.navbar-default {
+    background-color: #2d6471;
+    border: 2px;
+    padding-left: 150px;
+    padding-right: 200px;
+
+}
+.navbar-header .navbar-brand {
+    color: whitesmoke;
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    background-size: 201px 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 14px;
+    font-size: 25px;
+}
+.navbar li a, .navbar .navbar-brand {
+    margin-left: 20px;
+}
+
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+nav.navbar-default .navbar-nav > .active > a,
+nav.navbar-default .navbar-nav > .active > a:hover,
+nav.navbar-default .navbar-nav > .active > a:focus {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #5b8f93;
+    border: 2px;
+    border-radius: 10px;
+}
+nav.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+body{
+    background-image: url("/resources/img/beach.jpg");
+    background-size: cover;
+}
+.container{
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.tour{
+    background-color: white;
+    height: 390px;
+    width: 340px;
+    margin: 30px 30px 20px 30px;
+    border: 1px;
+    border-radius: 15px;
+    float: left;
+}
+.tour h2{
+    color: #5b8f93;
+}
+.tour img{
+    margin: 0 45px 0 45px;
+    width: 250px;
+    height: 220px;
+    background-size: 100% 100%;
+    border: white solid 1px;
+    border-radius: 15px;
+
+}
+.tour .description{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    color: grey;
+}
+.button1{
+    text-align: center;
+}
+.tour button{
+    margin: auto;
+    width: 90px;
+    height: 30px;
+    color: white;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+.tour .b1{
+    width: 90px;
+    background-color: #beb716;
+}
+.tour .b2{
+    width: 90px;
+    background-color: firebrick;
+}
+.tour .b3{
+    width: 130px;
+    background-color: forestgreen;
+}
+.tour .b4{
+    width: 130px;
+    color: grey;
+}
+.tour h2{
+    text-align: center;
+}
+.tour .price{
+    text-align: center;
+    font-size: 17px;
+    color: forestgreen;
+}
+.registration{
+    margin: auto;
+    margin-top: 80px;
+    width: 1000px;
+    height: 450px;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 45px;
+}
+.registration .input-group{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 430px;
+    float: left;
+}
+.registration button{
+    margin-top: 20px;
+    margin-left: 340px;
+    background-color: darkgray;
+    height: 50px;
+    width: 200px;
+    border: white solid 1px;
+    border-radius: 15px;
+    color: white;
+    background-color: #5b8f93;
+}
+.registration h1, .loginContainer h1{
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    color: #5b8f93;
+}
+.loginContainer{
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    padding: 20px;
+    border: white solid 1px;
+    border-radius: 25px;
+}
+.loginContainer .input-group{
+    margin-top: 35px;
+}
+
+
+.btn-primary{
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: #5b8f93;
+}
+.addTour{
+    margin: auto;
+    margin-top: 80px;
+    width: 600px;
+    background-color: white;
+    border: white solid 1px;
+    border-radius: 25px;
+    padding-top: 30px;
+}
+.addTour form{
+    margin: auto;
+    width: 440px;
+}
+.addTour h1{
+    color: #5b8f93;
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+}
+.addTour label{
+    font-size: 18px;
+    color: grey;
+}
+.addTour input{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.addTour .btn-primary{
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.basket{
+    margin: auto;
+    width: 900px;
+}
+.basketC{
+    margin-bottom: 30px;
+    height: 200px;
+    border: white solid 1px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.imgC{
+    height: 170px;
+    width: 170px;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.imgC img{
+    background-size: 100% 100%;
+    height: 170px;
+    width: 170px;
+    border: black solid 1px;
+    border-radius: 10px;
+
+}
+
+.infoCom{
+    text-align: center;
+    margin-left: 50px;
+    width: 500px;
+    float: left;
+}
+.description{
+    text-align: left;
+    height: 100px;
+    overflow: scroll;
+}
+.deleteBask a{
+    float: left;
+    width: 100px;
+    margin-top: 80px;
+    margin-left: 5px;
+    color: firebrick;
+    font-size: 20px;
+    text-align: left;
+}
+.sum{
+    text-align: right;
+    font-size: 19px;
+    color: forestgreen;
+}
+.acceptBookingContainer{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    border: white solid 1px;
+    border-radius: 15px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.acceptBookingContainer img{
+    width: 750px;
+}
+.acceptBookingContainer p{
+    font-size: 25px;
+}
